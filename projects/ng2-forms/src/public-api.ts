@@ -1,5 +1,5 @@
 /*
- * Public API Surface of ng-forms
+ * Public API Surface of ng2-forms
  */
 
 export * from './lib/error-message.model';

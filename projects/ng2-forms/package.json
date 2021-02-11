@@ -1,5 +1,5 @@
 {
-  "name": "ng-forms",
+  "name": "@vdumbrava/ng2-forms",
   "version": "1.1.0",
   "peerDependencies": {
     "@angular/common": "^11.1.2",

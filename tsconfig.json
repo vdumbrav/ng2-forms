@@ -11,9 +11,9 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
-      "ng-forms": [
-        "dist/ng-forms/ng-forms",
-        "dist/ng-forms"
+      "ng2-forms": [
+        "dist/ng2-forms/ng2-forms",
+        "dist/ng2-forms"
       ]
     },
     "target": "es2015",
