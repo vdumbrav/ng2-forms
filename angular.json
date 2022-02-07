@@ -28,18 +28,6 @@
             "tsConfig": "projects/ng2-forms/tsconfig.spec.json",
             "karmaConfig": "projects/ng2-forms/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ng2-forms/tsconfig.lib.json",
-              "projects/ng2-forms/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
         }
       }
     }
