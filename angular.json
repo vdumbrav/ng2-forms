@@ -12,22 +12,17 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/ng2-forms/tsconfig.lib.json",
             "project": "projects/ng2-forms/ng-package.json"
           },
           "configurations": {
             "production": {
               "tsConfig": "projects/ng2-forms/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ng2-forms/tsconfig.lib.json"
             }
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/ng2-forms/src/test.ts",
-            "tsConfig": "projects/ng2-forms/tsconfig.spec.json",
-            "karmaConfig": "projects/ng2-forms/karma.conf.js"
-          }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

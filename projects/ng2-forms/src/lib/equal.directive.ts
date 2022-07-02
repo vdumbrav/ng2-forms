@@ -51,7 +51,7 @@ export class EqualDirective implements Validator {
 
     // input values are equal and self input is not retype
     if (e && v === e.value && !this._isRetype && e.errors) {
-      delete e.errors.validate_equal;
+      delete e.errors['validate_equal'];
       if (!Object.keys(e.errors).length) {
         e.setErrors(null);
       }

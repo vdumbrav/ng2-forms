@@ -1,0 +1,45 @@
+# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.
+# For additional information regarding the format and rule options, please see:
+# https://github.com/browserslist/browserslist#queries
+
+# For the full list of supported browsers by the Angular framework, please see:
+# https://angular.io/guide/browser-support
+
+# You can see what browsers were selected by your queries by running:
+#   npx browserslist
+
+defaults
+supports es6-module
+maintained node versions
+last 3 versions
+last 2 iOS versions
+last 2 Android versions
+last 2 Safari versions
+last 2 ChromeAndroid versions
+last 2 FirefoxAndroid versions
+last 2 Edge versions
+last 2 iOS major versions
+last 2 Safari major versions
+last 2 years
+QQAndroid >= 10.4
+Android >= 7
+Chrome >= 61
+Firefox >= 60
+FirefoxAndroid >= 87
+Opera >= 48
+Edge >= 16
+Safari >= 11
+Safari TP
+iOS >= 11
+Samsung >= 8.2
+Firefox ESR
+op_mob >= 64
+not OperaMobile > 0
+not kaios > 0
+not UCAndroid > 0
+not Baidu > 0
+not OperaMini all
+not Explorer > 0
+not ExplorerMobile > 0
+not dead
+not Chrome 49

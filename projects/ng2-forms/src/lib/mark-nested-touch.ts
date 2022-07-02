@@ -1,6 +1,6 @@
-import { FormArray, FormControl, FormGroup } from '@angular/forms';
+import { AbstractControl, FormArray, FormControl, FormGroup } from '@angular/forms';
 
-type FormType = FormGroup | FormArray | FormControl;
+type FormType = FormGroup | FormArray | FormControl | AbstractControl;
 
 export function markNestedTouch(form: FormType, touched: boolean): void {
   touched ? form.markAsTouched() : form.markAsUntouched();

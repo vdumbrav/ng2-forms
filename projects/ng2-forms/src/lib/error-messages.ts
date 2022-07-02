@@ -5,7 +5,7 @@ export const ERROR_MESSAGES: ErrorMessage = {
     `Field value must be at least ${error.min}, it is now ${error.actual}`,
   max: (error: { max: number; actual: number | string }): string =>
     `The field value must be at most ${error.max}, it is now ${error.actual}`,
-  validate_equal: 'This password is don\'t match',
+  validate_equal: "This password is don't match",
   required: 'This field is required',
   email: 'This field is not an email',
   minlength: (error: {
