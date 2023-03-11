@@ -1,4 +1,9 @@
-import { AbstractControl, FormArray, FormControl, FormGroup } from '@angular/forms';
+import {
+  AbstractControl,
+  FormArray,
+  FormControl,
+  FormGroup,
+} from '@angular/forms';
 
 type FormType = FormGroup | FormArray | FormControl | AbstractControl;
 
