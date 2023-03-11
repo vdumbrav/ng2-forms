@@ -8,6 +8,7 @@
 # You can see what browsers were selected by your queries by running:
 #   npx browserslist
 
+
 defaults
 supports es6-module
 last 3 versions
@@ -42,3 +43,6 @@ not Explorer > 0
 not ExplorerMobile > 0
 not dead
 not Chrome 49
+not ios_saf 10.3
+not safari 10.1
+not edge 16-17
