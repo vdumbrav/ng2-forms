@@ -19,7 +19,7 @@ export const ERROR_MESSAGES: ErrorMessage = {
   }): string =>
     `The field must contain a maximum of ${error.requiredLength} characters, now it has ${error.actualLength} characters`,
   pattern: (error: { requiredPattern: string; actualValue: string }): string =>
-    `The field must coincide with the \"${error.requiredPattern}\" pattern, now it is \"${error.actualValue}\"`,
+    `The field must coincide with the "${error.requiredPattern}" pattern, now it is "${error.actualValue}"`,
   string: (error: string): string => error,
   undefined: 'This field contains an unknown error',
 };

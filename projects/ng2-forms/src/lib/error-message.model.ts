@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export interface ErrorMessage {
   min: (error: { min: number; actual: number | string }) => string;
   max: (error: { max: number; actual: number | string }) => string;

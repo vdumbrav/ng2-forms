@@ -34,6 +34,7 @@ export class ErrorMessagePipe implements PipeTransform {
     // get the error message
     return this._errors[keyError]
       ? typeof this._errors[keyError] === 'function'
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         ? (this._errors[keyError] as any)(error)
         : this._errors[keyError]
       : this._errors.undefined;

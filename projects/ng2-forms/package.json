@@ -1,12 +1,12 @@
 {
   "name": "@vdumbrava/ng2-forms",
-  "version": "4.0.2",
+  "version": "4.1.0",
   "peerDependencies": {
-    "@angular/common": "^15.2.0",
-    "@angular/core": "^15.2.0"
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0",
+    "@angular/forms": "^15.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
-  },
-  "sideEffects": false
+  }
 }

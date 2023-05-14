@@ -12,7 +12,9 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "ng2-forms": ["dist/ng2-forms"]
+      "ng2-forms": [
+        "dist/ng2-forms"
+      ]
     },
     "declaration": false,
     "downlevelIteration": true,
@@ -22,7 +24,10 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": ["ES2022", "dom"]
+    "lib": [
+      "ES2022",
+      "dom"
+    ]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
