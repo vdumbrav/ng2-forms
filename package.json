@@ -1,5 +1,13 @@
 {
   "name": "@vdumbrava/ng2-forms",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdumbrav/forms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vdumbrav/forms/issues"
+  },
+  "homepage": "https://github.com/vdumbrav/forms#readme",
   "version": "4.1.0",
   "scripts": {
     "ng": "ng",
